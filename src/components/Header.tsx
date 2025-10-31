@@ -26,7 +26,9 @@ export default function Header() {
       isScrolled ? 'bg-white/95 backdrop-blur shadow-md' : 'bg-transparent'
     }`}>
       <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="font-bold text-xl text-gray-900">WH</div>
+        <div className="flex items-center">
+          <img src="/whcorrea501 logo.png" alt="WH Correa Logo" className="h-10" />
+        </div>
 
         <div className="hidden md:flex gap-8">
           <button onClick={() => scrollToSection('nosotros')} className="text-gray-700 hover:text-blue-900 text-sm font-medium">NOSOTROS</button>

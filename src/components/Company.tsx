@@ -9,6 +9,14 @@ export default function Company() {
         </h2>
         <p className="text-gray-600 mb-8 font-medium">Profesionales dedicados al sector empresarial</p>
 
+        <div className="mb-8 flex justify-center">
+          <img
+            src="/calculator-2620141L.png"
+            alt="Calculadora"
+            className="w-full max-w-2xl rounded-lg shadow-lg"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div>
             <p className="text-gray-700 leading-relaxed mb-4">

@@ -21,7 +21,7 @@ export default function ExperienceSection() {
 
           <div className="order-1 md:order-2">
             <img
-              src="/niños_en_mano.png"
+              src="/ninios_en_mano.png"
               alt="Experiencia"
               className="w-full max-w-sm mx-auto"
             />
